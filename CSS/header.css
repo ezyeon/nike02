@@ -1,0 +1,56 @@
+/* Header CSS */
+
+header { width: 100%; height: auto; }
+.gnb { width: 100%; height: 96px; }
+
+
+/* gnb 1st line */
+
+.gnb_upper { width: 100%; height: 36px; padding: 0 38px 0 36px; background-color: rgb(245, 245, 245); display: flex; justify-content: space-between; align-items: center; }
+.gnb_brands { display: flex; }
+.gnb_brands li a { display: block; padding: 4px 12px 8px; }
+svg { vertical-align: middle; }
+
+.gnb_usermenu { display: flex; justify-content: flex-end; }
+.gnb_usermenu li { padding: 0 8px; line-height: 12px; }
+.gnb_usermenu li a { font-family: 'Noto Sans KR'; font-size: 12px; font-weight: 500; color: rgb(17, 17, 17); }
+.gnb_usermenu li:nth-child(2n) { padding: 0 4px; }
+
+
+/* gnb 2nd line */
+
+.gnb_bottom { width: 100%; height: 60px; display: flex; justify-content: space-between; align-items: center; padding: 0 38px 0 36px; }
+.gnb_logo_wrap { width: 360px; padding: 0 12px; }
+
+.gnb_menu { display: flex; }
+.gnb_menu li a { padding: 18px 12px; font-weight: 500; color: rgb(17, 17, 17); }
+
+.gnb_icon { width: 360px; display: flex; justify-content: flex-end; align-items: center; }
+.gnb_icon li { display: flex; align-items: center; }
+.gnb_icon li span { color: rgb(150, 150, 150); }
+
+.gnb_icon li:nth-child(1) { width: 180px; height: 40px; background-color: rgb(245, 245, 245); border-radius: 20px; margin: 0 20px 0 0; }
+.gnb_icon li:nth-child(2) { margin: 0 12px 0 0; width: 36px; height: 36px; }
+.gnb_icon li:nth-child(3) { width: 36px; height: 36px; }
+.gnb_icon li a { padding: 6px; }
+.gnb_icon img { width: 24px; height: 24px; }
+
+
+/* header hover */
+
+.gnb_upper svg:hover { fill: rgb(150, 150, 150); }
+.gnb_usermenu li a:hover { color: rgb(150, 150, 150); }
+.gnb_bottom svg:hover { fill: rgb(150, 150, 150); }
+.gnb_menu li a:hover { border-bottom: 2px solid rgb(17, 17, 17); }
+.gnb_icon li img:nth-child(1):hover { background-color: rgb(220, 220, 220); border-radius: 18px; }
+.gnb_icon li:hover { background-color: rgb(220, 220, 220); border-radius: 18px;}
+
+
+/* media queries */
+@media screen and (max-width:1023px ) {
+
+    .gnb { height: 60px; }
+    .gnb_upper {display: none;}
+    .gnb_menu {display: none;}
+
+}

@@ -1,0 +1,67 @@
+body { font-family: 'Noto Sans KR'; font-size: 16px; font-weight: 400; line-height: 1.5; letter-spacing: normal; color: rgb(17, 17, 17); }
+
+div, ul, li { background-size: cover; background-repeat: no-repeat; background-position: center center; }
+
+button { font-family: 'Noto Sans KR'; font-size: 16px; font-weight: 500;  }
+button:hover { cursor: pointer; opacity: 0.6; }
+
+
+/* Text Style */
+h1 { }
+h2 { font-size: 24px; line-height: 28px; font-weight: 500; padding-left: 8px; }
+h3 { }
+h4 { font-size: 16px; line-height: 24px; font-weight: 500; }
+h5 { }
+h6 { }
+p { font-size: 16px; line-height: 1.5; }
+
+
+/* font style */
+.p72 { font-family: 'Nike Futura'; font-size: 72px; font-weight: 400; line-height: 60px; }
+.p20 { font-size: 20px; font-weight: 500; }
+.p14 { font-size: 14px; font-weight: 400; }
+.p14_tg { font-family: 'Noto Sans KR'; font-size: 14px; font-weight: 400; }
+.p12 { font-size: 12px; font-weight: 400; }
+.p10 { font-size: 10px; font-weight: 400; }
+
+.fw_500 { font-weight: 500; }
+
+
+/* color style */
+.c_17 { color: rgb(17, 17, 17); }
+.c_117 { color: rgb(117, 117, 117); }
+.c_126 { color: rgb(126, 126, 126); }
+.c_245 { color: rgb(245, 245, 245); }
+.c_255 { color: rgb(255, 255, 255); }
+
+
+/* margin & padding style */
+.mb_8 { margin-bottom: 8px; }
+.mb_16 { margin-bottom: 16px; }
+.mb_18 { margin-bottom: 18px; }
+.mb_24 { margin-bottom: 24px; }
+
+.mt_18 { margin-top: 18px; }
+
+.pl_56 { padding-left: 56px; }
+
+
+
+/* web font */
+@font-face { font-family: 'Nike TG'; src: url(../font/257c802f-349c-4b4d-aefa-546d5de15ec6.woff2) format('woff2'); }
+@font-face { font-family: 'Nike Futura'; src: url(../font/nike-futura.woff2) format('woff2'); }
+
+@font-face { font-family: 'Noto Sans KR'; src: url(../font/NotoSans-Thin.woff2) format('woff2'); font-weight: 100; }
+
+@font-face { font-family: 'Noto Sans KR'; src: url(../font/NotoSans-Light.woff2) format('woff2'); font-weight: 200; }
+
+@font-face { font-family: 'Noto Sans KR'; src: url(../font/NotoSans-DemiLight.woff2) format('woff2'); font-weight: 300; }
+
+@font-face { font-family: 'Noto Sans KR'; src: url(../font/NotoSans-Regular.woff2) format('woff2'); font-weight: 400; }
+
+@font-face { font-family: 'Noto Sans KR'; src: url(../font/NotoSans-Medium.woff2) format('woff2'); font-weight: 500; }
+
+@font-face { font-family: 'Noto Sans KR'; src: url(../font/NotoSans-Bold.woff2) format('woff2'); font-weight: 700; }
+
+
+

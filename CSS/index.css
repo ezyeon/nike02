@@ -1,0 +1,105 @@
+/* msin CSS */
+
+/* main banner */
+.main_banner { height: 58px; padding: 10px 0 0 0; text-align: center; background-color: rgb(245, 245, 245); }
+.main_banner p { font-size: 14px; line-height: 14px; font-weight: 500;}
+.main_banner a { font-family: 'Nike TG'; font-size: 12px; text-decoration: underline; color: rgb(17, 17, 17); }
+
+
+
+/* main product CSS */
+.main_product_wrap { width: 100%; padding: 0 48px; }
+.main_product { width: 100%; height: 900px; padding: 0 8px; display: flex; justify-content: space-between; }
+.main_product_left { width: 50%; background-image: url(../img/nike-just-do-it_L.png); }
+.main_product_right { width: 50%; background-image: url(../img/nike-just-do-it_R.png); padding: 36px; display: flex; justify-content: flex-end; align-items: flex-end; }
+
+
+
+/* main Video ver CSS */
+.hero_video_wrap { width: 100%; height: 900px; padding: 0 56px; overflow: hidden; position: relative;}
+.hero_video { width: 100%; margin: -90px 0 0 0; }
+.hero_video_wrap a { display: block; width: calc(100% - 112px); height: 100%; position: absolute; top: 0; left: 56px; background-color: rgba(0, 0, 0, 0.4);} 
+
+.hero_video_title { position: absolute; top: 420px; left: 0; text-align: center; width: 100%; font-family: 'Nike Futura'; font-size: 120px; color: rgba(255, 255, 255, 0.8); } 
+
+
+/* Trending now CSS */
+.trending_left { width: 50%; height: 700px; margin: 0 8px; background-image: url(../img/trending_l.jpg); }
+.trending_right { width: 50%; height: 700px; margin: 0 8px; background-image: url(../img/trending_r.jpg); }
+
+
+/* The latest and greatest CSS */
+.best_wrap { width: 100%; padding: 84px 0 0; }
+.best_scroll { width: 100%; overflow: scroll; padding: 0 0 20px 48px; }
+.best { width: 200%; display: flex; }
+.best ul li { width: calc(16.66667% - 16px); height: auto;  margin: 0 8px; }
+.best ul li a { display: block; width: 100%; height: 100%; }
+.best li img { width: 100%; vertical-align: middle; }
+.item { width: 100%; display: flex; justify-content: space-between; padding: 12px 16px 0 0; }
+
+
+/* Just in CSS */
+.just_in_left { width: 50%; height: 700px; margin: 0 8px; background-image: url(../img/justin_l.jpg); }
+.just_in_right { width: 50%; height: 700px; margin: 0 8px; background-image: url(../img/justin_r.jpg); }
+
+
+/* More to explore CSS */
+.product { width: 100%; display: flex; justify-content: space-between; padding: 0 8px; }
+.product li { width: calc(33.3333% - 16px); margin: 0 8px; }
+.product li img { width: 100%; margin:0 0 16px;}
+
+
+/* Membership CSS */
+.membership_wrap { width: 100%; height: 100%; padding: 84px 48px 0 84px;  } 
+.membership_button {  width: 100%; height: 500px; background-image: url(../img/membership.jpg); display: flex; justify-content: center; align-items: flex-end; margin: 0 8px; }
+.member_bb { display: block; width: 115px; height: 40px; background-color: rgb(17, 17, 17); border: none; color: white; padding: 8px 28px; border-radius: 20px; text-align: center; margin: 6px 6px 0 0; }
+
+
+
+/* Category CSS */
+.category_wrap { width: 100%; padding: 84px 20px 56px; } 
+.category { width: 880px; height: 192px; display: flex; justify-content: space-between; margin: 0 auto; overflow: hidden; transition: height 0.4s; }
+.category:hover { height: auto; }
+.category ul { width: 184px; color: rgb(17, 17, 17); }
+.category ul li { margin-bottom: 12px; }
+.category ul li a { color: rgb(117, 117, 117); }
+
+
+
+
+/* layout style */
+.wrap { width: 100%; padding: 84px 48px 0; } 
+.area { width: 100%; display: flex; }
+.main_basic { display: flex; flex-direction: column; justify-content: flex-end; padding: 36px;}
+
+
+/* button style */
+.shop_wb { display: block; width: 95px; height: 40px; background-color: white; color: rgb(17, 17, 17); padding: 8px 28px; border-radius: 20px; border: none; text-align: center; margin-top: 18px; }
+.shop_bb { display: block; width: 95px; height: 40px; background-color: rgb(17, 17, 17); color: white; padding: 8px 28px; border-radius: 20px; border: none; text-align: center; margin-top: 18px; }
+
+
+
+/* media queries */
+@media screen and (max-width:1023px ) {
+    .wrap { width: 100%; padding: 84px 12px 0; }
+    .main_product_wrap { width: 100%; padding: 0 20px; }
+    .main_product { width: 100%; height: 500px; padding: 0 8px; display: flex; justify-content: space-between; }
+
+    
+    /* Trending now CSS */
+    .trending_left { height: 500px;}
+    .trending_right { height: 500px;}
+
+
+    /* The latest and greatest CSS */
+    .best_scroll { width: 100%; overflow: scroll; padding: 0 0 20px 20px; }
+    .best_wrap h2 { padding-left: 20px; }
+
+    /* Just in CSS */
+    .just_in_left { height: 500px;}
+    .just_in_right { height: 500px; }
+
+
+
+
+}
